@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:session7/screens/grid_view_demo_screen.dart';
+import 'package:session7/screens/gridview_builder_screen.dart';
 import 'package:session7/screens/listview_builder_screen.dart';
 import 'package:session7/screens/listview_demo_screen.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  GridViewDemoScreen(),
+      home:const  GridviewBuilderScreen(),
     );
   }
 }
